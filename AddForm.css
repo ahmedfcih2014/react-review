@@ -1,0 +1,58 @@
+#add-form .contain ,#edit-form .contain {
+    max-width: 396px;
+}
+
+#add-form .rounded-box ,#edit-form .rounded-box {
+    width: 100%;
+    min-width: 152px;
+    max-width: 656px;
+}
+
+#add-form .confirm ,#edit-form .confirm {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#add-form .form-group ,#edit-form .form-group {
+    position: relative;
+}
+
+#add-form .padding.en ,#edit-form .padding.en {
+    padding-right: 75px;
+}
+
+#add-form .padding.ar ,#edit-form .padding.ar {
+    padding-left: 75px;
+}
+
+#add-form .icon ,#edit-form .icon {
+    position: absolute;
+    bottom: 25%;
+    color: var(--label-color);
+    width: 40px;
+    cursor: pointer;
+}
+
+#add-form .icon.en ,#edit-form .icon.en {
+    right: 20px;
+    padding-left: 10px;
+    border-left: 1px solid var(--label-color);
+}
+
+#add-form .icon.ar ,#edit-form .icon.ar {
+    left: 20px;
+    padding-right: 10px;
+    border-right: 1px solid var(--label-color);
+}
+
+#add-form .no-cursor ,#edit-form .no-cursor {
+    cursor: unset;
+}
+
+#add-form .row,#edit-form .row{
+    row-gap: 30px;
+}
+
+#add-form .form-group ,#edit-form .form-group {
+    padding-bottom: 10px;
+}
